@@ -1,0 +1,17 @@
+name: RENDERsys447066
+on:
+  workflow_dispatch:
+jobs:
+  manageOR259872:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        login432254AR: [NODEflow81734]
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v4
+        with:
+          node-version: '20'
+      - name: view171041ICAL
+        run: |
+          java -jar DECRYPTPHASE726791.jar
